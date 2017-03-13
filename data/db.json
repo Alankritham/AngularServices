@@ -1,0 +1,187 @@
+{
+  "contacts": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "Clinton",
+        "last": "Dsouza"
+      },
+      "location": {
+        "street": "1488 shady ln drive",
+        "city": "Las vegas",
+        "state": "vermont",
+        "postcode": 43358
+      },
+      "email": "clayton.lopez@example.com",
+      "login": {
+        "username": "bluebear384",
+        "password": "woof",
+        "salt": "7RtkmbVo",
+        "md5": "36e7e1ee9bb201d643de1094324158cf",
+        "sha1": "0adea0953fb196118708aba3f7b6032ed3519a82",
+        "sha256": "6dadddb30d91f8986823ce0f66276325333820442b9d3247c213239c81635143"
+      },
+      "dob": "1991-02-25 04:10:12",
+      "registered": "2012-05-01 21:14:10",
+      "phone": "(826)-332-8885",
+      "cell": "(904)-448-9550",
+      "id": 1,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/65.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/65.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/65.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "harry",
+        "last": "peterson"
+      },
+      "location": {
+        "street": "4117 camden ave",
+        "city": "Richmond",
+        "state": "mississippi",
+        "postcode": 76982
+      },
+      "email": "harry.peterson@example.com",
+      "login": {
+        "username": "heavybird341",
+        "password": "chick",
+        "salt": "9wfMsIkC",
+        "md5": "8968add65bc87bb688bdc63d0aedaf9f",
+        "sha1": "53f8f359a57f649df59c345b8e91719ef01b3a68",
+        "sha256": "700c7d66f0c68229da39f723deaefef3048147c5be89c1c771db19eb942d6647"
+      },
+      "dob": "1948-07-22 05:56:20",
+      "registered": "2014-05-10 12:33:57",
+      "phone": "(526)-226-6770",
+      "cell": "(884)-188-0972",
+      "id": 2,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/69.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/69.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/69.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "sara",
+        "last": "maunu"
+      },
+      "location": {
+        "street": "1157 pirkankatu",
+        "city": "kumlinge",
+        "state": "finland proper",
+        "postcode": 84098
+      },
+      "email": "sara.maunu@example.com",
+      "login": {
+        "username": "bluebear464",
+        "password": "1234qwer",
+        "salt": "AGobkBXI",
+        "md5": "aa4164bc3f93080b37e1b90c45d262cb",
+        "sha1": "8af2ff9ebb2ffa49d6036a0bc3de2bb213869c53",
+        "sha256": "fcfc0c4c97069ddbab8d3c812332559f1d9365255f86fad8bb80ef01dd8580df"
+      },
+      "dob": "1962-11-17 02:07:41",
+      "registered": "2012-12-12 23:28:22",
+      "phone": "05-547-760",
+      "cell": "045-789-82-16",
+      "id": 3,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/92.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/92.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "julie",
+        "last": "roche"
+      },
+      "location": {
+        "street": "2841 rue du stade",
+        "city": "le mans Hello How are you",
+        "state": "mayenne",
+        "postcode": 27252
+      },
+      "email": "julie.roche@example.com",
+      "login": {
+        "username": "whitesnake183",
+        "password": "marlin",
+        "salt": "TDz5civx",
+        "md5": "2c03446542179a69f45f4882bad8ac5b",
+        "sha1": "dc22ac0c966ec94ecfaa04b539f811a554deee25",
+        "sha256": "3202abbcab7c326ae844ce2ec3a86cc2170a0db3c9113e0bd168daa435af60eb"
+      },
+      "dob": "1989-06-19 21:37:58",
+      "registered": "2004-01-09 10:34:33",
+      "phone": "04-66-21-74-90",
+      "cell": "06-14-16-33-62",
+      "id": 4,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/66.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/66.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/66.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "oona",
+        "last": "hakala"
+      },
+      "location": {
+        "street": "3627 Reijolankat",
+        "city": "pyhäntä",
+        "state": "south karelia",
+        "postcode": 36821
+      },
+      "email": "oona.hakala@example.com",
+      "login": {
+        "username": "crazykoala459",
+        "password": "news",
+        "salt": "7cedE4au",
+        "md5": "a6d704ea9fb8adf80983611a2a7b73ec",
+        "sha1": "f8e444d6f0dacfee0deaa1b6d7ca37d3a6430bbf",
+        "sha256": "69f3bbd7e66bf99c853e6ca43ba531b94585652c19a5d15c009ca0693f94d482"
+      },
+      "dob": "1964-09-22 20:12:21",
+      "registered": "2002-06-01 03:12:03",
+      "phone": "06-536-114",
+      "cell": "043-120-52-75",
+      "id": 5,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/86.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/86.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/86.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "id": "20:51:34 GMT-0500 (EST)",
+      "name": {
+        "first": "sdf",
+        "last": "sdf"
+      },
+      "location": {
+        "street": "sdf",
+        "city": "sdg",
+        "state": "gsf"
+      },
+      "cell": "dfg"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+<body ng-app="myapp">
+  <div class="container" ng-controller="contactctrl as ctrl">
+    <div class="row">
+    <div class="col-md-6">
+    <ul class="list-group">
+    <li class="list-group-item" ng-repeat = "contact in ctrl.contacts" ng-click = "ctrl.selectContact($index)">
+      <span>{{contact.name.first + " " +contact.name.last}}</span> </li>
+   </ul>
+     <button ng-click = "ctrl.addUser()">Add</button>
+  </div>
+
+
+  <div class="col-md-6">
+    <div class="alert alert-success" ng-if="ctrl.successMessage">{{ctrl.successMessage}}</div>
+    <div class="alert alert-danger" ng-if="ctrl.errorMessage">{{ctrl.errorMessage}}</div>
+
+    <div class="media">
+    <div class="media-left">
+      <a href="#">
+        <img ng-src="{{ctrl.selectedContact.picture.medium}}"></img>
+      </a>
+    </div>
+    <div class="media-body">
+      <button ng-hide="ctrl.editmode" ng-click="ctrl.setEditMode()">Edit</button>
+      <button ng-show="ctrl.editmode" ng-click="ctrl.saveUser()">Save </button>
+      <p>
+      <span>First Name: </span>
+      <span ng-hide="ctrl.editmode">
+        {{ctrl.selectedContact.name.first}}
+      </span >
+      <input type="text" ng-show="ctrl.editmode" ng-model="ctrl.selectedContact.name.first">
+        <span>Last Name: </span>
+      <span ng-hide="ctrl.editmode">
+        {{ctrl.selectedContact.name.last}}
+      </span >
+      <input type="text" ng-show="ctrl.editmode" ng-model="ctrl.selectedContact.name.last">
+      </p>
+
+      <div>
+        <p>
+          <h5>Location</h5>
+
+        </p>
+
+        <p>
+        <span>Street: </span>
+        <span ng-hide="ctrl.editmode">
+          {{ctrl.selectedContact.location.street}}
+        </span >
+        <input type="text" ng-show="ctrl.editmode" ng-model="ctrl.selectedContact.location.street">
+        </p>
+        <p>
+        <span>City: </span>
+        <span ng-hide="ctrl.editmode">
+          {{ctrl.selectedContact.location.city}}
+        </span>
+        <input type="text" ng-show="ctrl.editmode" ng-model="ctrl.selectedContact.location.city">
+
+        </p>
+        <p>
+        <span>State: </span>
+        <span ng-hide="ctrl.editmode">
+          {{ctrl.selectedContact.location.state}}
+        </span>
+        <input type="text" ng-show="ctrl.editmode" ng-model="ctrl.selectedContact.location.state">
+
+        </p>
+
+      </div>
+      <div>
+        <p>
+          <h5>Phone</h5>
+        </p>
+        <p>
+          <span ng-hide="ctrl.editmode">{{ctrl.selectedContact.cell}}</span>
+          <input type="text" ng-show="ctrl.editmode" ng-model="ctrl.selectedContact.cell">
+        </p>
+      </div>
+    </div>
+</div>
+  </div>
+</div>
+</div>
+</body>
+<script src= "https://code.angularjs.org/1.5.5/angular.min.js"></script>
+<script src= "https://code.angularjs.org/1.5.5/angular-route.min.js"></script>
+<script src= "script.js"></script>
+<script src= "appconfig.service.js"></script>
+<script src= "contact.controller.js"></script>
+<script src= "appname.service.js"></script>
+<script src= "contactdata.service.js"></script>
+
+
+</html>
